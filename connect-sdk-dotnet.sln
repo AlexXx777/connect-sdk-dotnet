@@ -1,17 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect-sdk-dotnet-tests", "connect-sdk-dotnet-tests\connect-sdk-dotnet-tests.csproj", "{A444091C-3B4C-4DEB-B4B9-8780E4315AB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect-sdk-dotnet-examples", "connect-sdk-dotnet-examples\connect-sdk-dotnet-examples.csproj", "{86D9672B-FDEA-4328-A325-26AA6A90838E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect-sdk-dotnet", "connect-sdk-dotnet\connect-sdk-dotnet.csproj", "{0F1D918A-EC59-4217-808B-5FF141D8387C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect-sdk-dotnet-it", "connect-sdk-dotnet-it\connect-sdk-dotnet-it.csproj", "{07FA47A5-9AD0-4603-B368-762A58C0296D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "connect-sdk-dotnet.StrongName", "connect-sdk-dotnet.StrongName\connect-sdk-dotnet.StrongName.csproj", "{3089F5C9-97BB-4258-9FD8-45EB473CCBDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,17 +27,12 @@ Global
 		{0F1D918A-EC59-4217-808B-5FF141D8387C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F1D918A-EC59-4217-808B-5FF141D8387C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F1D918A-EC59-4217-808B-5FF141D8387C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07FA47A5-9AD0-4603-B368-762A58C0296D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07FA47A5-9AD0-4603-B368-762A58C0296D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07FA47A5-9AD0-4603-B368-762A58C0296D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07FA47A5-9AD0-4603-B368-762A58C0296D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3089F5C9-97BB-4258-9FD8-45EB473CCBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3089F5C9-97BB-4258-9FD8-45EB473CCBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3089F5C9-97BB-4258-9FD8-45EB473CCBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3089F5C9-97BB-4258-9FD8-45EB473CCBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD88F5A5-17E3-4D8F-BAD7-A916DF8FF00A}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
